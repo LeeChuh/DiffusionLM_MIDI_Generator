@@ -59,7 +59,7 @@ For a more detailed evaluation and visualizations, kindly refer to the 'Results'
 
 However, it's important to note that these results are dependent on the parameters and data used for training. Results may vary with different datasets or parameter settings.
 
-| Model                    | Iterations | Steps | bits-per-word |
+| Model                    | Iterations | Steps | bits-per-word (bpw)|
 |--------------------------|------------|-------|---------------|
 | Diffusion-LM using BERT  | 800        | 2000  | 0.00003       |
 | Diffusion-LM using BERT  | 1000       | 2000  | 0.00004       |
