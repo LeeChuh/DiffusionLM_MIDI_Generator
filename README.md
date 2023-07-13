@@ -73,6 +73,10 @@ However, it's important to note that these results are dependent on the paramete
 
 <audio src="sample_output/output_2.wav" controls title="Title"></audio>
 
+
+https://github.com/LeeChuh/DiffusionLM_MIDI_Generator/assets/60937990/4e9a4315-e4d1-4361-af4f-b3fcc62989c0
+
+
 <audio src="sample_output/output_3.wav" controls title="Title"></audio>
 
 <audio src="sample_output/output_4.wav" controls title="Title"></audio>
