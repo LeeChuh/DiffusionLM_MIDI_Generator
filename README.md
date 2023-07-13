@@ -26,6 +26,8 @@ Our project used the Lakh Large MIDI dataset, a collection of over 10,000 piano 
 
 Our project employs a novel approach of training a Diffusion-LM model on MIDI files using `BERT` transformer model and `Electra-BERT` to generate discrete music. Here are the detailed steps:
 
+![image](img/BERT.png)
+
 1. **Data Preparation**: Our dataset is composed of MIDI files from the Lakh MIDI dataset. The MIDI files are transposed into a unified key to reduce the complexity of the model's training.
 
 2. **Preprocessing**: The MIDI files are then converted into text using the python MIDI library. This library translates the MIDI files into a sequence of musical events such as note-on, note-off, time-shifts etc. Each of these events are then encoded into a unique token, and the sequences of these tokens form the input data for our model.
@@ -50,6 +52,8 @@ For a more detailed evaluation and visualizations, kindly refer to the 'Results'
 
 However, it's important to note that these results are dependent on the parameters and data used for training. Results may vary with different datasets or parameter settings.
 
+
+### Comparison Between Diffusion LM with BERT and Electra-BERT
 | Model                    | Iterations | Steps | bits-per-word (bpw)|
 |--------------------------|------------|-------|---------------|
 | Diffusion-LM using BERT  | 800        | 2000  | 0.00003       |
@@ -57,6 +61,16 @@ However, it's important to note that these results are dependent on the paramete
 | Diffusion-LM using BERT  | 2000       | 2000  | 0.00007       |
 | Diffusion-LM using Electra| 1000       | 2000  | 0.00020       |
 | Diffusion-LM using Electra| 2000       | 2000  | 0.00030       |
+
+### Generated MIDI Waveform Visualization
+
+![image](img/9-midi-waveform.png)
+
+### Generated MIDI Note Representation Visualizatin 
+
+![image](img/note.jpeg)
+
+
 
 ## Sample-Output
 
